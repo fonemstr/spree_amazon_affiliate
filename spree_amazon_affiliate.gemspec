@@ -18,10 +18,10 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'amazon-ecs', '~> 2.2.0'
   s.add_dependency 'htmlentities'
-  s.add_dependency 'spree_core', '>= 1.1.0'
+  s.add_dependency 'spree_core', '>= 2.0.0.beta'
 
   s.add_development_dependency 'capybara',     '~> 1.1'
-  s.add_development_dependency 'factory_girl', '~> 2.6'
+  s.add_development_dependency 'factory_girl', '~> 4.2'
   s.add_development_dependency 'ffaker',       '~> 1.12'
   s.add_development_dependency 'rspec-rails',  '~> 2.9'
   s.add_development_dependency 'simplecov',    '~> 0.6.2'

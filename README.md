@@ -44,6 +44,7 @@ Here are some ways *you* can contribute:
 * by refactoring code
 * by resolving [issues](https://github.com/jdutil/spree_amazon_affiliate/issues)
 * by reviewing patches
+* by donating bitcoin to 1FcTMVfYmdPd4C5hA2g3b2qDxzveSf2vzW
 
 Testing
 -------
@@ -61,4 +62,4 @@ TODO
 * use official aws-sdk gem rather than amazon-ecs
 * translate to new languages
 
-Copyright (c) 2011 Jeff Dutil, released under the New BSD License
+Copyright (c) 2011-2013 Jeff Dutil, released under the New BSD License
