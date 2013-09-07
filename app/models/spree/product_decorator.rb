@@ -15,7 +15,6 @@ Spree::Product.class_eval do
       # Update variants
       @master = product.master
       @master.is_master = true # No longer being set now?
-      @master.count_on_hand = options[:count_on_hand]
       @master.price = options[:price]
       @master.save 
       options[:images].map{ |i|
