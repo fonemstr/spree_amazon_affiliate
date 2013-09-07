@@ -9,6 +9,7 @@ Spree::Product.class_eval do
     else
       product = new(options[:attributes])
       product.amazon_id = options[:asin]
+      product.shipping_category_id = Spree::ShippingCategory.first.id
     end
     if product.save
       # Update variants

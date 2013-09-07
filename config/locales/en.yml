@@ -16,6 +16,8 @@ en:
   import_instructions: Please download the template file and list the ASIN number of each product to import.  You may also include a taxon tree to assign the product.
   imports: Imports
   keywords: Keywords
+  products: Products
+  taxons: Taxons
   upload: Upload
   upload_complete: Upload Complete
   upload_spreadsheet: Upload Spreadsheet
